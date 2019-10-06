@@ -1,0 +1,82 @@
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+h1 {
+	padding: 10 10 0 10;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+.array {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	width: 66%;
+	text-align: center;
+
+}
+
+
+#user_array {
+	margin-top: 40px;
+}
+
+.array_item {
+	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	width: 10px;
+	text-align: center;
+}
+
+.lucky {
+	background-color: rgb(255,255,153);
+}
+
+#results {
+	margin: 5%;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+
+.form {
+	margin: 0 auto;
+	width: 400px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+input {
+	margin: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	display: inline-block;
+	border: 1px solid #E0E0E0;
+  	border-radius: 4px;
+  	box-sizing: border-box;
+  	height: 40px;
+}
+
+#submit {
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	width: 40%;
+}
+
+#submit:hover{
+	background-color:  rgb(200,100,100);
+}
+
+#try_again {
+	margin: 0 auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	width: 160px;
+}
+
+
